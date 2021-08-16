@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoppingCart</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <script src="list.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container border border-dark  mt-4 ">
+        <div class="row p-3 mb-2 bg-warning bg-opacity-25 text-dark" id="row1">
+            <div class="col-md-3 border border-dark  " id="col">
+                <input onclick="CreateList(event,1,document.getElementById('qty1').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam1</label><br>
+                Price: 110rs <br>
+                Qty:</label>
+                <input id="qty1" type="text" style="margin: 15px; line-height: 1.5;" 
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+
+            <div class="col-md-3 border border-dark"  id="col">
+                <input onclick="CreateList(event,2,document.getElementById('qty2').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam2</label><br>
+                Price: 120rs <br>
+                Qty:</label>
+                <input id="qty2" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+
+            <div class="col-md-3 border border-dark " id="col">
+                <input onclick="CreateList(event,3,document.getElementById('qty3').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam3</label><br>
+                Price: 130rs <br>
+                Qty:</label>
+                <input id="qty3" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+
+            <div class="col-md-3 border border-dark " id="col">
+                <input onclick="CreateList(event,4,document.getElementById('qty4').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam4</label><br>
+                Price: 140rs <br>
+                Qty:</label>
+                <input id="qty4" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+        </div>
+        <div class="row p-3 mb-2 bg-info bg-opacity-22 text-dark">
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,event,5,document.getElementById('qty5').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam5</label><br>
+                Price: 150rs <br>
+                Qty:</label>
+                <input id="qty5" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+            <div class="col-md-3 border border-dark " id="col">
+                <input onclick="CreateList(event,event,6,document.getElementById('qty6').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam6</label><br>
+                Price: 160rs <br>
+                Qty:</label>
+                <input id="qty6" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,7,document.getElementById('qty7').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam7</label><br>
+                Price: 170rs <br>
+                Qty:</label>
+                <input id="qty7" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,0,document.getElementById('qty0').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam0</label><br>
+                Price: 100rs <br>
+                Qty:</label>
+                <input id="qty0" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+        </div>
+
+        <div class="row p-3 mb-2 bg-success bg-opacity-25 text-dark">
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,8,document.getElementById('qty8').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam8</label><br>
+                Price: 180rs <br>
+                Qty:</label>
+                <input id="qty8" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,9,document.getElementById('qty9').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam9</label><br>
+                Price: 190rs <br>
+                Qty:</label>
+                <input id="qty9" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,10,document.getElementById('qty10').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam10</label><br>
+                Price: 200rs <br>
+                Qty:</label>
+                <input id="qty10" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,12,document.getElementById('qty12').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam12</label><br>
+                Price: 220rs <br>
+                Qty:</label>
+                <input id="qty12" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+        </div>
+
+        <div class="row p-3 mb-2 bg-primary bg-opacity-25 text-dark">
+            <div class="col-md-3 border border-dark  ">
+                <input onclick="CreateList(event,13,document.getElementById('qty13').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam13</label><br>
+                Price: 230rs <br>
+                Qty:</label>
+                <input id="qty13" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,14,document.getElementById('qty14').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam14</label><br>
+                Price: 240rs <br>
+                Qty:</label>
+                <input id="qty14" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,15,document.getElementById('qty15').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam15</label><br>
+                Price: 250rs <br>
+                Qty:</label>
+                <input id="qty15" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+            <div class="col-md-3 border border-dark ">
+                <input onclick="CreateList(event,16,document.getElementById('qty16').value)"
+                    class="rounded mx-auto d-block" type="checkbox" style="text-align: center;"><br>
+                <img class="rounded mx-auto d-block" src="imge/img1.jpeg" style="width: 100px;height: 100px ;">
+                <p id="name">Iteam:Coffee cup</p>
+                Description:<label>Iteam16</label><br>
+                Price: 260rs <br>
+                Qty:</label>
+                <input id="qty16" type="text" style="margin: 15px; line-height: 1.5;"
+                onchange="CreateList(event,16,document.getElementById('qty16').value)">
+            </div>
+        </div>
+   
+    <div class="row mt-2 p-3 mb-2 bg-white text-dark">
+        <div class="col-lg-8 offset-lg-1">
+            <div id="container"></div>
+            <div><button type="button"id="totalPriceBtn" onclick=calculateTotal() class="btn btn-primary btn-lg">Get Total Price</button></div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
